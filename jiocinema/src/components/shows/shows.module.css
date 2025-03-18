@@ -1,0 +1,24 @@
+.shows{
+    width: 100%;
+    background:#000707;
+
+    /* background: red; */
+    padding: 20px 2%;
+    box-sizing: border-box;
+
+}
+.titleshow{
+    font-size: 25px;
+    padding: 0 0 20px 0;
+}
+
+
+.showsParent{
+    width:100%;
+    display: flex;
+    /* background: blue; */
+    justify-content: space-between;
+
+
+}
+

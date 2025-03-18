@@ -1,0 +1,58 @@
+.show{
+
+    width: 16%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    background-color: #111; 
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+
+    
+
+   
+    
+}
+.show img {
+   width: 100%;
+   height: 300px;
+   object-fit: cover;
+   transition: transform 0.3s ease-in-out;
+
+}
+
+.movieTitle{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.8); 
+   position: absolute;
+   bottom: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   text-align: center;
+
+
+   opacity: 0;
+   transform: translateY(100%);
+   transition:  opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.show:hover .movieTitle {
+    opacity: 1;
+    transform: translateY(0);
+ }
+
+ .moviename {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0;
+ }
+ 
